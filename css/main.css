@@ -1,0 +1,155 @@
+body{
+  font-family:'Myriad Pro Regular';
+  font-size: 24px;
+  text-align: left;
+  width: 750px;
+  margin: 0 auto;
+}
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('MyriadPro-Regular.eot');
+    src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('MyriadPro-Regular.woff') format('woff'),
+    url('MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+nav.navigation{
+  background-color: #2d7053;
+  max-height: 230px;
+  color: #ffffff;
+  border: 1px sold black;
+}
+h2{font-size: 36px;}
+div{font-size: 0;}
+footer{
+  font-size: 18px;
+  padding:27px 0 29px 27px ;
+  background-color: #888888;
+  min-height: 100px;
+}
+footer ul{
+  display: inline-block;
+  list-style: none;
+  color: #ffffff;
+  margin:0 0 0 100px;
+  padding: 0;
+  vertical-align: bottom;
+}
+footer a{
+  display: inline-block;
+  padding: 14px 25px;
+  text-decoration: none;
+  color: #ffff;
+}
+.footer-img{
+  background-color:#ffffff ;
+  vertical-align: middle;
+  height: 96px;
+  width: 96px;
+  display: inline-block;
+  border-radius: 96px;
+}
+.rec_img{
+  width: 249px;
+  height: 248px;
+  border-radius: 240px;
+  display: inline-block;
+}
+.nav_fio{
+    margin:22px 0 22px 40px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 658px;
+}
+.nav_fio-img{
+  background-color:#ffffff ;
+  vertical-align: middle;
+  height: 141px;
+  width: 141px;
+  display: inline-block;
+  border-radius: 141px;
+}
+.fio-img_pos{margin: 45px;}
+.no-img{display: none;}
+.nav_fio dl{
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left:58px;
+}
+.nav_fio dl dd{
+  padding: 0;
+  margin: 0;
+}
+.fio{ display: inline-block;}
+.navi_menu{
+  margin-left: 260px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 85px;
+  height: 90px;
+}
+.navi_menu ul{
+  margin: 0;
+  padding: 0;
+}
+.navi_menu ul li{
+  width: 84px;
+  height: 12px;
+  border-radius: 3px;
+  background: #ffff;
+  list-style: none;
+  margin: 13px 0;
+}
+.reg_form-btn{
+  display: inline-block;
+  line-height: 3;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  width: 340px;
+  height: 75px;
+  background-color: #cb9223;
+  color: #ffffff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn-position{
+  margin-top: -240px;
+  margin-left:205px ;
+}
+.btn-position2{
+  margin-top: 44px;
+  margin-left: 161px;
+}
+  .content{padding: 44px;}
+  .bio{ margin:30px 0;}
+  .bio ul,img{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 23px;
+  }
+  .bio ul{ padding: 0 73px;}
+  .bio ul li{
+    text-decoration: none;
+    list-style: none;
+    margin:18px 0;
+  }
+  .bio ul li:first-child{
+    font-size: 36px;
+    margin: 18px 0;
+  }
+  .bio_description{
+    font-size: 24px;
+    max-width: 590px;
+    margin: 55px 0;
+    padding:0;
+  }
+  .bio_description ul{padding: 0;}
+  .bio_description li{list-style: none;}
+  .bio_description ul li::before {content: "-";}
+  .f_contacts li{display: inline-block;}
